@@ -1,12 +1,22 @@
 # Introduction to Open Data
 
+![img](images/event_cover.png)
+
+## [Click here for tickets](https://www.eventbrite.com/e/seeing-dallas-in-data-an-introduction-to-open-data-in-dfw-tickets-55724131377?aff=github)
+
 ## Background
 A workshop given as part of the [2016 NYC DCAS Expo](http://www.nyc.gov/html/dcas/downloads/pdf/misc/expo2016.pdf). [Original slides are available online](http://www.datapolitan.com/talks_lectures/20160108_OpenDataExpo). Current slides are available at http://training.datapolitan.com/intro-open-data.
 
 ![img](images/expo2016_14.jpg)
 
 ## Overview
-This workshop
+As more and more data is released to the public through open data portals, such as [the portal hosted by the City of Dallas](https://www.dallasopendata.com/), we have an unprecendented opportunity to understand the state of our communities and how our government is working. While accessing this information may be easier, accessing the right information can be challenging and understanding it even harder.
+
+Join us for an introduction to open data, an overview of several open data portals in the DFW area, and a short exploration of the available data to get you started on your journey of data adventure. This class is the beginning of a series of classes we're currently developing using open data to teach valuable analytics skills while learning about our communities.
+
+Whether you have a particular story you'd like to tell about your community or want to find the stories yet untold, bring your laptops and join us for two hours of engaging discussion and hands-on exploration of real problems with real data.
+
+_Please note: We are unable to provide computers for those without laptops of their own, but will happily work with any browser or spreadsheet program you have installed and available. Don't have Microsoft Office? No worries! Try these free, open-source office solutions: [OpenOffice](https://www.openoffice.org/) and [LibreOffice](https://www.libreoffice.org/). Also, if you have a Google account, you're welcome to use Google Sheets. You're welcome to join if you don't have a computer and we'll be happy to pair you with someone who does._
 
 ## Outline
 + **Welcome**
@@ -57,8 +67,35 @@ This workshop
 	+ Outcome: Participants have key ideas reinforced, are able to ask any remaining questions, and are resourced for further exploration of the topics presented
 	+ Format: Facilitated group discussion
 
+## FAQs
+
+**Should I be familiar with the open data portal before arriving?**
+
+Not at all! We assume no prior knowledge and will be covering key topics in class, as well as letting you explore on your own as we go.
+
+**Should I be a data rockstar to even think of attending?**
+
+No! We take all comers, even if you consider "data" a four-letter word of ill-repute. We do our best to engage and help everyone learn no matter how familiar (or unfamiliar) you are with the data or the tools.
+
+**What are my transportation/parking options for getting to and from the event?**
+
+Goodwork has plenty of parking in front for people joining the event. There is also on-street parking if there are no spots available in front (very unlikely).
+
+**What can I bring into the event?**
+
+Please bring a notebook, a laptop with some spreadsheet application available, and your curiosity. We'll be going online to explore several open data portals, download data, and do some basic analysis of what we find. The lecture materials will be hosted online for reference.
+
+**How can I contact the organizer with any questions?**
+
+Please feel free to reach out to training@datapolitan.com with any questions you have about the event.
+
+**What's the refund policy?**
+
+Life happens and while we'd love to see everyone who registers show up for the class, we're happy to offer refunds for people who provide at least 24 hours notice.
+
 ## Resources
 + [Open Data Handbook](http://opendatahandbook.org/)
 + [State of the Union of Open Data](https://www.datafoundation.org/the-state-of-the-union-of-open-data-ed-3)
 + [Ancient Origins of Open Access Law](https://opengovdata.io/2014/ancient-origins-open-access-to-law/) by [Joshua Tauberer](https://razor.occams.info/)
 + [A Brief History of Open Data](http://parisinnovationreview.com/articles-en/a-brief-history-of-open-data) by [Simon Chignard](https://donneesouvertes.info/) in the Paris Innovation Review
+
