@@ -106,6 +106,11 @@ img[alt=img-right-40]{
   width:40%;
   float:right;
 }
+img[alt=img-right-40-bottom]{
+  width:40%;
+  float:right;
+  bottom:10px;
+}
 img[alt=img-right-43]{
   width:43%;
   float:right;
@@ -137,11 +142,6 @@ img[alt=img-right-65]{
 img[alt=img-right-70]{
   width:70%;
   float:right;
-}
-img[alt=img-right-bottom]{
-  width:45%;
-  float:right;
-  bottom:10px;
 }
 img[alt=img-top]{
   width:50%;
