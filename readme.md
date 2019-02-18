@@ -53,7 +53,7 @@ _Please note: We are unable to provide computers for those without laptops of th
 	+ Format: Facilitated lecture, guided exercise, and group discussion
 + **Individual/Group Exercise**
 	+ Activity: Facilitator supports the participants in their own exploration of a dataset or further exploration of the example dataset in order to tell a story from the data
-	+ Task to participants: Find a dataset of your own or continue working with this dataset, but try and find a story in the data that you want to share. We won't have much time, so it doesn't need to be a complete story, but something that is interesting and compelling to you. Be prepared to share your story to the group.
+	+ Task to participants: Find a dataset of your own or continue working with this dataset, but try and find a story in the data that you want to share. We won't have much time, so it doesn't need to be a complete story, but something that is interesting and compelling to you. Be prepared to share your story with the group.
 	+ Outcome: Participants have practiced the tasks covered by applying them to an example of their own choosing
 	+ Format: Supported individual/partner/small group work
 + **Presentations**
