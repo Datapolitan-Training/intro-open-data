@@ -1,19 +1,168 @@
-@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+/*@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);*/
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
-body { font-family: 'Droid Serif'; }
-a:visited, a:link, a:active { text-decoration: none; }
-a:hover { text-decoration: underline; }
-p, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Yanone Kaffeesatz';
-  font-weight: normal;
+body { 
+  font-family: 'Rubik';
 }
-.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+.remark-slide-content { /*background color for the slide*/
+  background-color: #f2efda;
+  padding: 1em 3.5em 1em 3.5em; /*top,right,bottom,left*/
+}
+
+.remark-slide-number {
+  font-size:0.6em;
+  margin: 1px auto;
+  width:50%;
+  bottom:5px;
+  /*right:450px;
+  vertical-align:middle;
+  display:inline-block;*/
+  text-align:left;
+}
+.remark-code, .remark-inline-code { 
+  font-family: 'Rubik'; 
+}
+
+img[alt=Creative-Commons-License]{
+  width:6%;
+  position: fixed;
+  right:10px;
+  bottom:7px;
+  /*float:right;*/
+  /*display: inline;*/
+}
+
+img.logo_new {
+   position: fixed;
+   /*top: 7px; */
+   left: 10px;
+   bottom: -1px;
+   width: 10%;
+}
+
+div.header, div.footer {
+  display:block; 
+  position: fixed;
+  height:25px;
+  /*color:gray; */
+  width:100%;
+  /*color chosen by Fernando*/
+  background: #f2efda;
+  /*color gradient start chosen based on https://colorpalettes.net/color-palette-2371/*/
+  vertical-align:middle;
+  margin:0 0 0 0;
+}
+
+div.header {
+  text-align: center; 
+  font-size:1em; 
+  top: 0px;
+  left: 0px;
+  /*height: 30px;*/
+  background: -moz-linear-gradient(bottom, #f9f7ed 0%, #f2efda 100%); 
+  background: -webkit-linear-gradient(bottom, #f9f7ed 0%, #f2efda 100%);
+  background: linear-gradient(to top, bottom, #f9f7ed 0%, #f2efda 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2efda', endColorstr='#f9f7ed',GradientType=0 );
+
+}
+div.footer {
+  bottom: 0px;
+  left:0px;
+  /*height: 30px;*/
+  background: -moz-linear-gradient(top, #f9f7ed 0%, #f2efda 100%); 
+  background: -webkit-linear-gradient(top, #f9f7ed 0%, #f2efda 100%);
+  background: linear-gradient(to bottom, top, #f9f7ed 0%, #f2efda 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f7ed', endColorstr='#f2efda',GradientType=0 );
+
+}
+p.header-text {
+  display:inline-block;
+  text-align:center;
+  /*orange color*/
+  /*color:#e77b4e;*/
+  /*green color*/
+  color:#4f655a; 
+  font-weight: bold;
+  font-size:0.65em;
+  /*position: fixed;*/
+  /*top: 10px;*/
+  /*left: 375px;*/
+  /*height: 30px;*/
+  vertical-align:middle;
+  margin:2px 0 0 0;
+  text-transform: uppercase;
+}
+p.footer-text{
+  position:fixed;
+  left:10px;
+  bottom:0px;
+  font-size: 0.4em;
+    /*green color*/
+  color:#4f655a; 
+
+}
+
+p.license-text {
+  font-family: 'Rubik'; 
+  font-weight: 200;
+  font-size:0.5em;
+}
+
+
+a:visited, a:link, a:active { 
+  text-decoration: none; 
+  /*text-transform: lowercase;*/
+}
+a:hover {
+  text-decoration: underline; 
+/*  text-transform: lowercase;*/
+}
+
+h1 {
+  font-family: 'Oswald';
+  font-weight: medium;
+  color:#e77b4e;
+  text-transform: uppercase;
+  margin: 12px 5px 10px 5px;
+  letter-spacing:0.025em;
+  /*font-size: 45px;*/
+}
+
+/*h2, h3, h4, h5, h6 {
+  font-family: 'Oswald';
+  font-weight: 200;
+  color:#4f655a;
+  margin: 20px 0 20px 0;
+}*/
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Oswald';
+  font-weight: medium;
+  color:#4f655a;
+  margin: 15px 5px 15px 5px;
+  /*text-transform: uppercase;*/
+  letter-spacing:0.035em;
+}
+
+p {
+  font-family: 'Rubik';
+  font-weight: 400;
+  color:#4f655a;
+}
+
+ul {
+  margin: 15px 0 15px 0;
+}
 li {
-  font-family: 'Yanone Kaffeesatz';
-  font-size:2em;
+  font-family: 'Rubik';
+  font-size:1.8em;
+  color:#4f655a;
 }
+
 img {
   width:70%;
   display: block;
@@ -32,10 +181,6 @@ img[alt=img-left-20]{
   width:20%;
   float:left;
 }
-img[alt=img-left-25]{
-  width:25%;
-  float:left;
-}
 img[alt=img-left-30]{
   width:30%;
   float:left;
@@ -46,6 +191,10 @@ img[alt=img-left-35]{
 }
 img[alt=img-left-40]{
   width:40%;
+  float:left;
+}
+img[alt=img-left-43]{
+  width:43%;
   float:left;
 }
 img[alt=img-left-45]{
@@ -73,14 +222,6 @@ img[alt=img-left-bottom]{
   float:left;
   bottom:10px;
 }
-img[alt=img-right-10]{
-  width:10%;
-  float:right;
-}
-img[alt=img-right-15]{
-  width:15%;
-  float:right;
-}
 img[alt=img-right-20]{
   width:20%;
   float:right;
@@ -105,11 +246,6 @@ img[alt=img-right-35]{
 img[alt=img-right-40]{
   width:40%;
   float:right;
-}
-img[alt=img-right-40-bottom]{
-  width:40%;
-  float:right;
-  bottom:10px;
 }
 img[alt=img-right-43]{
   width:43%;
@@ -143,12 +279,14 @@ img[alt=img-right-70]{
   width:70%;
   float:right;
 }
+img[alt=img-right-bottom]{
+  width:45%;
+  float:right;
+  bottom:10px;
+}
 img[alt=img-top]{
   width:50%;
   top:10px;
-}
-img[alt=img-center-10]{
-  width:10%;
 }
 img[alt=img-center-20]{
   width:20%;
@@ -207,11 +345,7 @@ img[alt=img-center-95]{
 img[alt=img-center-100]{
   width:100%;
 }
-img[alt=Creative-Commons-License]{
-  width:10%;
-  float:right;
-  display: inline;
-}
+
 
 iframe {
   display:block;
@@ -237,7 +371,7 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
-  font-size:3em;
+  font-size:2.25em;
 }
 
 code, tt {
@@ -247,7 +381,7 @@ code, tt {
 /*  white-space: nowrap;*/
   border: 1px solid #eaeaea;
   background-color: #f8f8f8;
-  border-radius: 3px;
+  border-radius: 3px; 
 word-wrap:break-word;
 }
 
@@ -279,13 +413,6 @@ pre {
     background-color: transparent;
     border: none; }
 
-p.footer{
-  position:fixed;
-  left:10px;
-  bottom:0px;
-  font-size: 0.4em;
-}
-
 .red {
   color: red;
 }
@@ -316,19 +443,13 @@ p.footer{
 
 form{
   text-align: center;
-
 }
 
 .caption{
   display: block;
   text-align: center;
   color: gray;
-  font-size:0.75em;
+  font-size:0.5em;
 }
 
-.remark-slide-number {
-  font-size:0.75em;
-  bottom:5px;
-  right:10px;
-}
 
